@@ -9,20 +9,27 @@ class Decrement extends Component
         this.state = { number: props.start };
     }
 
+    handleDecrement = (state) =>
+    {
+        if(state.number === 0) return alert("Cannot be less than zero!");
+
+        this.setState({ number: state.number - 1 });
+    };
+
     render()
     {
         return (
             <>
                 {this.state.number}
-                <button onClick>Decrement</button>
+                <button onClick={() => this.handleDecrement(this.state)}>Decrement</button>
             </>
-        )
+        );
     }
 }
 
 Decrement.propTypes = 
 {
     start: PropTypes.number.isRequired
-}
+};
 
 export default Decrement;
