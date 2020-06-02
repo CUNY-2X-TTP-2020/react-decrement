@@ -6,7 +6,11 @@ class Decrement extends Component
     constructor(props)
     {
         super(props);
-        this.state = { number: props.start };
+        this.state = 
+        {
+            number: props.start,
+            amount: props.amount
+        };
     }
 
     handleDecrement = (state) =>
@@ -21,7 +25,7 @@ class Decrement extends Component
         return (
             <>
                 {this.state.number}
-                <button onClick={() => this.handleDecrement(this.state)}>Decrement</button>
+                <button onClick={() => this.handleDecrement(this.state)}>Decrement -{this.state.amount}</button>
             </>
         );
     }
@@ -29,7 +33,8 @@ class Decrement extends Component
 
 Decrement.propTypes = 
 {
-    start: PropTypes.number.isRequired
+    start: PropTypes.number.isRequired,
+    amount: PropTypes.number.isRequired
 };
 
 export default Decrement;
