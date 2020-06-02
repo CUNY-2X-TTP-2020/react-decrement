@@ -13,7 +13,8 @@ class Decrement extends Component
     {
         return (
             <>
-                
+                {this.state.number}
+                <button onClick>Decrement</button>
             </>
         )
     }
