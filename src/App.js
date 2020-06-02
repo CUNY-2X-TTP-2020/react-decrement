@@ -9,7 +9,10 @@ function App()
         <div className="App">
         <header className="App-header">
             <h1>Decrement</h1>
+            <Decrement />
             <Decrement start={20} amount={1} />
+            <Decrement start={50} amount={5} />
+            <Decrement start={100} amount={10} />
         </header>
         </div>
     );

@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Decrement extends Component
+export default class Decrement extends Component
 {
     constructor(props)
     {
         super(props);
         this.state = 
         {
-            number: props.start,
-            amount: props.amount
+            counter: props.start !== undefined? props.start : 10,
+            amount: props.amount !== undefined ? props.amount : 1
         };
     }
 
     handleDecrement = (state) =>
     {
-        if(state.number === 0) return alert("Cannot be less than zero!");
+        if(state.counter - state.amount < 0) return alert("Cannot be less than zero!");
 
-        this.setState({ number: state.number - 1 });
+        this.setState({ counter: state.counter - state.amount });
     };
 
     render()
     {
         return (
             <>
-                {this.state.number}
-                <button onClick={() => this.handleDecrement(this.state)}>Decrement -{this.state.amount}</button>
+                {this.state.counter}
+                <button onClick={() => this.handleDecrement(this.state)}>Decrement {this.state.amount}</button>
             </>
         );
     }
@@ -36,5 +36,3 @@ Decrement.propTypes =
     start: PropTypes.number.isRequired,
     amount: PropTypes.number.isRequired
 };
-
-export default Decrement;
