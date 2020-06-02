@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CUNY-2X-TTP-2020/react-decrement/static/css/main.5f361e03.chunk.css",
+    "main.js": "/CUNY-2X-TTP-2020/react-decrement/static/js/main.b0d3c43d.chunk.js",
+    "main.js.map": "/CUNY-2X-TTP-2020/react-decrement/static/js/main.b0d3c43d.chunk.js.map",
+    "runtime-main.js": "/CUNY-2X-TTP-2020/react-decrement/static/js/runtime-main.f2b8e986.js",
+    "runtime-main.js.map": "/CUNY-2X-TTP-2020/react-decrement/static/js/runtime-main.f2b8e986.js.map",
+    "static/js/2.9c681bd3.chunk.js": "/CUNY-2X-TTP-2020/react-decrement/static/js/2.9c681bd3.chunk.js",
+    "static/js/2.9c681bd3.chunk.js.map": "/CUNY-2X-TTP-2020/react-decrement/static/js/2.9c681bd3.chunk.js.map",
+    "index.html": "/CUNY-2X-TTP-2020/react-decrement/index.html",
+    "precache-manifest.38e1be799d66095b3a8fa64af3ab7390.js": "/CUNY-2X-TTP-2020/react-decrement/precache-manifest.38e1be799d66095b3a8fa64af3ab7390.js",
+    "service-worker.js": "/CUNY-2X-TTP-2020/react-decrement/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/CUNY-2X-TTP-2020/react-decrement/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9c681bd3.chunk.js.LICENSE.txt": "/CUNY-2X-TTP-2020/react-decrement/static/js/2.9c681bd3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/CUNY-2X-TTP-2020/react-decrement/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2b8e986.js",
+    "static/js/2.9c681bd3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b0d3c43d.chunk.js"
+  ]
+}
