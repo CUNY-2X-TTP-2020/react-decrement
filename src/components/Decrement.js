@@ -25,7 +25,9 @@ export default class Decrement extends Component
         return (
             <>
                 {this.state.counter}
-                <button onClick={() => this.handleDecrement(this.state)}>Decrement {this.state.amount}</button>
+                <button className="decrement-button" onClick={() => this.handleDecrement(this.state)}>
+                    Decrement {this.state.amount}
+                </button>
             </>
         );
     }

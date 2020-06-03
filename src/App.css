@@ -14,3 +14,31 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+.decrement-button
+{
+    background-color: darkcyan;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: calc(10px + 1vmin);
+    padding: 10px;
+    margin: 5px;
+}
+
+.decrement-button:hover
+{
+    background-color: lightseagreen;
+}
+
+.decrement-button:active
+{
+    position: relative;
+    top: 2px;
+}
+
+.decrement-button:active,
+.decrement-button:focus
+{
+    outline: none;
+}
